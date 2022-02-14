@@ -1,5 +1,5 @@
 {% set name = "pqdm" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pqdm-{{ version }}.tar.gz
-  sha256: 5b405b8799001129091d21212b3ae5845059d2ebaf3eec2d6fb8479d8b35c3c0
+  sha256: d99d01fe498d327b440ebfe08c14c84e0dc9ecce6172ef9a31f96bb1aaf4e9e3
 
 build:
   number: 0
