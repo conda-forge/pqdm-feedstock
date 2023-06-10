@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@rsignell-usgs](https://github.com/rsignell-usgs/)
+* [@xhochy](https://github.com/xhochy/)
 
