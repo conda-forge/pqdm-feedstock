@@ -1,11 +1,11 @@
-About pqdm
-==========
+About pqdm-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pqdm-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/niedakh/pqdm
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pqdm-feedstock/blob/master/LICENSE.txt)
 
 Summary: PQDM is a TQDM and concurrent futures wrapper to allow enjoyable paralellization of progress bars.
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14288&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pqdm-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14288&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pqdm-feedstock?branchName=main">
       </a>
     </td>
   </tr>
