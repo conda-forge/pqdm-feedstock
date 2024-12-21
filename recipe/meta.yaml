@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pqdm-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pqdm-{{ version }}.tar.gz
   sha256: d99d01fe498d327b440ebfe08c14c84e0dc9ecce6172ef9a31f96bb1aaf4e9e3
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -19,10 +19,10 @@ requirements:
   host:
     - pip
     - pytest-runner
-    - python >=3.6
+    - python {{ python_min }}
   run:
     - bounded-pool-executor
-    - python >=3.6
+    - python >={{ python_min }}
     - tqdm
     - typing-extensions
 
@@ -33,6 +33,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/niedakh/pqdm
